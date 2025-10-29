@@ -1,0 +1,34 @@
+/* module.css - стилі модулів*/
+.event-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .25s ease, box-shadow .25s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.event-card img {
+  height: 180px;
+  object-fit: cover;
+}
+.btn-outline-warning:hover {
+  background-color: #c5a700;
+  color: #1e2b23;
+}
+.social-block {
+  border-radius: 10px;
+}
+.social-link {
+  transition: color .2s, transform .15s;
+}
+
+.social-link:hover {
+  color: var(--accent);
+  transform: translateX(6px);
+}
+
+.gallery img { border-radius: 8px; transition: transform .2s; }
+.gallery img:hover { transform: scale(1.02); }

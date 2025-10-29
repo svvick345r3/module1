@@ -1,0 +1,6 @@
+/* state.css — стилі стану */
+.nav-link.active {
+  color: var(--main-bg) !important;
+  background: var(--accent);
+  font-weight: 700;
+}

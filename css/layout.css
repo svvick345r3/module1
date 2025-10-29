@@ -1,0 +1,42 @@
+/* layout.css — макет, бокова панель і футер */
+.site-header {
+  background-color: #1e2b23;
+  color: #fff;
+  border-bottom: 4px solid #c5a700;
+}
+
+.site-title {
+  font-family: 'Teko', sans-serif;
+  color: #f7d100;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover {
+  color: #c5a700 !important;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #2c3a32;
+}
+
+.social-block {
+  background: #2f473b;
+  border-bottom: 3px solid #1e2b23;
+}
+
+.left-footer {
+  background: #1b241f;
+  border-top: 2px solid #3e513f;
+}
+
+.banner-block img {
+  object-fit: cover;
+  min-height: 200px;
+}
+.gallery {
+    background-color: #e5e5e5;
+}
